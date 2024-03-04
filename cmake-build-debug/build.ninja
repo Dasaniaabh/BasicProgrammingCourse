@@ -150,6 +150,12 @@ build libs/data_structure/CMakeFiles/data_structure.dir/vector/vector.c.obj: C_C
   OBJECT_DIR = libs\data_structure\CMakeFiles\data_structure.dir
   OBJECT_FILE_DIR = libs\data_structure\CMakeFiles\data_structure.dir\vector
 
+build libs/data_structure/CMakeFiles/data_structure.dir/vector/vector_void.c.obj: C_COMPILER__data_structure_unscanned_Debug D$:/Lab_14-0/libs/data_structure/vector/vector_void.c || cmake_object_order_depends_target_data_structure
+  DEP_FILE = libs\data_structure\CMakeFiles\data_structure.dir\vector\vector_void.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = libs\data_structure\CMakeFiles\data_structure.dir
+  OBJECT_FILE_DIR = libs\data_structure\CMakeFiles\data_structure.dir\vector
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target data_structure
@@ -158,7 +164,7 @@ build libs/data_structure/CMakeFiles/data_structure.dir/vector/vector.c.obj: C_C
 #############################################
 # Link the static library libs\data_structure\libdata_structure.a
 
-build libs/data_structure/libdata_structure.a: C_STATIC_LIBRARY_LINKER__data_structure_Debug libs/data_structure/CMakeFiles/data_structure.dir/vector/vector.c.obj
+build libs/data_structure/libdata_structure.a: C_STATIC_LIBRARY_LINKER__data_structure_Debug libs/data_structure/CMakeFiles/data_structure.dir/vector/vector.c.obj libs/data_structure/CMakeFiles/data_structure.dir/vector/vector_void.c.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = libs\data_structure\CMakeFiles\data_structure.dir
   POST_BUILD = cd .
